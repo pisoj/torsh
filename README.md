@@ -1,12 +1,12 @@
-![TorSh Logo](https://raw.githubusercontent.com/pisoj/torsh/master/logo.png)
+![torsh Logo](https://raw.githubusercontent.com/pisoj/torsh/master/logo.png)
 
 ## About
 
-TorSh is a tool that simplifies the creation of a reverse shell. It operates over [Tor](https://www.torproject.org/) network. This is great for anonymity and also helps with the setup. You don't need to do port forwarding or any other kind of presetup. It just works!
+Torsh is a tool that simplifies the creation of a reverse shell. It operates over [Tor](https://www.torproject.org/) network. This is great for anonymity and also helps with the setup. You don't need to do port forwarding or any other kind of presetup. It just works!
 
 </p>
 
-## Features
+## Benefits
 
 + Creating reverse shell as a Tor hidden service
 + End to end Tor connection (no [Tor2Web](https://www.tor2web.org/) etc...)
@@ -32,7 +32,7 @@ torsh listen -p 5000
 
 #### Connect
 ```
-torsh listen -p 5000
+torsh connect <address> -p 5000
 ```
 
 
